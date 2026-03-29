@@ -5,7 +5,7 @@ import { CartPage } from '../page/CartPage';
 import { CheckoutPage } from '../page/CheckoutPage';
 import { PaymentPage } from '../page/PaymentPage';
 
-export const test=base.extend(({
+export const test=base.extend({
     loginPage:async({page},use)=>{
         const lp=new LoginPage(page);
         await use(lp);
@@ -22,5 +22,5 @@ export const test=base.extend(({
     paymentPage:async({page},use)=>{
         await use(new PaymentPage(page));
     }
-}));
+});
 export { expect } from '@playwright/test';

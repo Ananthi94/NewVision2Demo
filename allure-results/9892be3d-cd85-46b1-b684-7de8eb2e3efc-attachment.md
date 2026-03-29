@@ -1,0 +1,140 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - img [ref=e7]
+      - generic [ref=e9]:
+        - heading "Test Automation Practice Hub" [level=1] [ref=e10]
+        - paragraph [ref=e11]: For Selenium, Playwright, Cypress, etc. This website contains every common scenario you'll encounter in real-world test automation projects. Each section is designed to challenge different aspects of your automation framework, from basic element interactions to complex business workflows.
+  - main [ref=e12]:
+    - generic [ref=e13]:
+      - tablist [ref=e14]:
+        - tab "Overview" [ref=e15]
+        - tab "Basic" [ref=e16]
+        - tab "Intermediate" [selected] [ref=e17]
+        - tab "Advanced" [ref=e18]
+        - tab "Business" [ref=e19]
+        - tab "System" [ref=e20]
+        - tab "Complex" [ref=e21]
+        - tab "Buggy" [ref=e22]
+      - tabpanel "Intermediate" [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]:
+            - generic [ref=e26]:
+              - generic [ref=e27]:
+                - generic [ref=e28]: Drag & Drop
+                - generic [ref=e29]: Drag items from left to right zone
+              - generic [ref=e30]:
+                - generic [ref=e31]:
+                  - generic [ref=e32]: Source Items
+                  - generic [ref=e33]:
+                    - generic [ref=e34]: Item 1
+                    - generic [ref=e35]: Item 2
+                    - generic [ref=e36]: Item 3
+                    - generic [ref=e37]: Item 4
+                - generic [ref=e38]:
+                  - generic [ref=e39]: Drop Zone
+                  - paragraph [ref=e41]: Drop items here
+            - generic [ref=e42]:
+              - generic [ref=e43]:
+                - generic [ref=e44]: Sliders
+                - generic [ref=e45]: Range and value sliders
+              - generic [ref=e46]:
+                - generic [ref=e47]:
+                  - generic [ref=e48]: "Value: 50%"
+                  - slider [ref=e53]
+                - generic [ref=e54]:
+                  - generic [ref=e55]: Volume Control
+                  - slider [ref=e60]
+                - generic [ref=e61]:
+                  - generic [ref=e62]: Range Slider (20-80)
+                  - generic [ref=e63]:
+                    - slider "Minimum" [ref=e67]
+                    - slider "Maximum" [ref=e69]
+                - paragraph [ref=e71]: "Current value: 50%"
+            - generic [ref=e72]:
+              - generic [ref=e73]:
+                - generic [ref=e74]: File Operations
+                - generic [ref=e75]: Upload and download file handling
+              - generic [ref=e76]:
+                - generic [ref=e77]:
+                  - generic [ref=e78]: File Upload
+                  - button "Choose File" [active] [ref=e79]:
+                    - img
+                    - text: Choose File
+                - generic [ref=e80]:
+                  - generic [ref=e81]: Upload Progress
+                  - progressbar [ref=e82]
+                  - paragraph [ref=e84]: 100% uploaded
+                - generic [ref=e85]:
+                  - generic [ref=e86]: File Download
+                  - button "Download Sample" [ref=e87]:
+                    - img
+                    - text: Download Sample
+            - generic [ref=e88]:
+              - generic [ref=e89]:
+                - generic [ref=e90]: Date Pickers
+                - generic [ref=e91]: Calendar and date selection components
+              - generic [ref=e92]:
+                - generic [ref=e93]:
+                  - generic [ref=e94]: Select Date
+                  - button "Pick a date" [ref=e95]:
+                    - img
+                    - text: Pick a date
+                - generic [ref=e96]:
+                  - generic [ref=e97]: Date Input
+                  - textbox [ref=e98]
+                - generic [ref=e99]:
+                  - generic [ref=e100]: DateTime Input
+                  - textbox [ref=e101]
+            - generic [ref=e102]:
+              - generic [ref=e103]:
+                - generic [ref=e104]: Mouse Interactions
+                - generic [ref=e105]: Hover effects and context menus
+              - generic [ref=e106]:
+                - generic [ref=e107]:
+                  - generic [ref=e108]: Hover Items
+                  - generic [ref=e109]: Hover Item 1
+                  - generic [ref=e110]: Hover Item 2
+                  - generic [ref=e111]: Hover Item 3
+                - generic [ref=e112]:
+                  - generic [ref=e113]: Context Menu Items
+                  - generic [ref=e114]: Right-click Item 1 (Right-click me)
+                  - generic [ref=e115]: Right-click Item 2 (Right-click me)
+            - generic [ref=e116]:
+              - generic [ref=e117]:
+                - generic [ref=e118]: Auto-suggestions
+                - generic [ref=e119]: Search with dynamic suggestions
+              - generic [ref=e121]:
+                - generic [ref=e122]: Search Framework
+                - textbox "Type to search..." [ref=e124]
+          - generic [ref=e125]:
+            - generic [ref=e126]:
+              - generic [ref=e127]: Progress & Loading States
+              - generic [ref=e128]: Various progress indicators and loading states
+            - generic [ref=e130]:
+              - generic [ref=e131]:
+                - generic [ref=e132]: Linear Progress
+                - progressbar [ref=e133]
+                - paragraph [ref=e135]: 75% Complete
+              - generic [ref=e136]:
+                - generic [ref=e137]: Dynamic Progress
+                - progressbar [ref=e138]
+                - paragraph [ref=e140]: 50% Complete
+              - generic [ref=e141]:
+                - generic [ref=e142]: Loading Button
+                - button "Loading..." [disabled]
+          - generic [ref=e143]:
+            - generic [ref=e144]:
+              - generic [ref=e145]: Copy/Paste Detection
+              - generic [ref=e146]: Detect copy and paste operations
+            - generic [ref=e147]:
+              - generic [ref=e148]:
+                - generic [ref=e149]: Copy Text Below
+                - generic [ref=e150] [cursor=pointer]: Test automation sample text (Click to copy)
+              - generic [ref=e151]:
+                - generic [ref=e152]: Paste Area
+                - textbox "Paste content here..." [ref=e153]
+```

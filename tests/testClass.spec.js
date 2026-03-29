@@ -1,6 +1,6 @@
 import {test,expect} from '../utility/myFixture';
 import { readData } from '../utility/readExcel';
-
+test.describe.configure({mode:'serial'});
 for(const jsonData of readData()){
 test(`Test using ${jsonData.user}`,{tag:'@smoke'},async({loginPage,productPage,cartPage,checkoutPage,paymentPage,page})=>{
     //login

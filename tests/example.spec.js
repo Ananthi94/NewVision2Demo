@@ -17,3 +17,26 @@ test('get started link', async ({ page }) => {
   // Expects page to have a heading with the name of Installation.
   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
 });
+
+test.only('Testing upload and download file',async({page})=>{
+
+  await page.goto("https://gauravkhurana.com/test-automation-play/");
+  await page.getByRole("tab",{name:"Intermediate"}).click();
+  await page.waitForLoadState('domcontentloaded');
+
+  const p=page.on("filechooser",async fileChooser=>{
+    await fileChooser.setFiles("uploadfile/test.txt");
+    
+  });
+
+  await page.getByTestId("upload-button").click();
+  
+  const [dw]=await Promise.all([
+    page.waitForEvent("download"),
+    page.getByTestId("download-button").click()
+  ]);
+  
+  await dw.saveAs("uploadfile/"+dw.suggestedFilename());
+  
+  await page.waitForTimeout(2000);
+});
